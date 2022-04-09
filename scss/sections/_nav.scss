@@ -1,0 +1,50 @@
+#nav
+{
+    background: $header;
+    padding: 0px;
+
+    .container
+    {
+        min-height: $navbar;
+
+        #navbarText
+        {
+
+            ul
+            {
+                list-style: none;
+
+                li
+                {
+
+                    a
+                    {
+                        color: $white;
+                        padding: 0.9rem;
+                        text-decoration: none;
+
+                        &:hover
+                        {
+                            background: $header-hover;
+                            color: $text-hover;
+                        }
+                    }
+                }
+            }
+        }
+
+        a
+        {
+            color: $white;
+            min-height: $navbar;
+            padding: 0.8rem;
+            text-decoration: none;
+
+            &:hover
+            {
+                background: $header-hover;
+                color: $text-hover;
+            }
+        }
+    }
+}

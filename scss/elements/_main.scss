@@ -1,0 +1,24 @@
+main
+{
+    background: $main;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+    .container-fluid
+    {
+        margin: 0px;
+        padding: 0px;
+        padding-top: $navbar;
+        padding-bottom: $footerbar;
+        width: 100%;
+
+        .row
+        {
+            min-height: calc( 50vh - calc( #{$navbar} + #{$footerbar} ) );
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+    }
+}

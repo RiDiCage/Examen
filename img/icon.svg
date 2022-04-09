@@ -1,0 +1,36 @@
+<!--
+   Copyright (C) 2009 - 2022 RiDi Cage Productions, Inc.
+   Amersfoort, Utrecht, The Netherlands
+
+   Licensed under MIT ( https://www.ridis.nl/index.php?p=license )
+-->
+<svg
+   aria-hidden="true"
+   class="Logo"
+   height="24px"
+   id="Logo"
+   role="img"
+   version="2.0"
+   viewBox="0 0 24 24"
+   width="24px"
+   weight="400"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:ridis="https://ridis.nl"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   >
+
+   <defs id="Colors">
+      <linearGradient id="Primair">
+         <stop offset="0%" style="stop-color:#c9a86a;" />
+         <stop offset="100%" style="stop-color:#a2733c;" />
+      </linearGradient>
+   </defs>
+
+   <path id="Background"
+      fill="url(#Primair)"
+      d="
+         M 24,12 A 12,12 0 0 1 12.003299,24 12,12 0 0 1 1.8135398e-6,12.006597 12,12 0 0 1 11.990104,4.0804643e-6 12,12 0 0 1 23.999993,11.986805
+      "
+   />
+
+</svg>

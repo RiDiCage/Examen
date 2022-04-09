@@ -1,0 +1,10 @@
+@mixin flexcenter ($richting, $justify, $align-items, $align-content, $align-self)
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $richting;      // column, column-reverse, row, row-reverse
+    justify-content: $justify;      // flex-start, flex-end, center, space-between, space-around, space-evenly
+    align-items: $align-items;      // center, normal, stretch, left, right
+    align-content: $align-content;  // flex-start, flex-end, center, space-between, space-around, space-evenly
+    align-self: $align-self;        // auto, flex-start, flex-end, center, baseline, stretch
+}
